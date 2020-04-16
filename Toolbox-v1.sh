@@ -1,6 +1,12 @@
 #!/bin/bash
 #All right reserved by: the writer of this program: t.me/Anonymous_Lpz
 
+function exit {
+cd
+ls
+exit
+}
+
 #banner
 while :
 do
@@ -231,8 +237,6 @@ sleep 1.2
 echo -e "\e[1;33mBye, and Thanks for your preference."
 sleep 1.5
 clear
-cd /data/data/com.termux/files/home
-ls
 exit
 ;;
 *) echo ""
