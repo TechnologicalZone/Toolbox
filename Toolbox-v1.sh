@@ -214,7 +214,7 @@ echo -e "\e[1;33mIp localized, enter to continue"
 read enter
 ;;
 09) clear
-cd ..
+cd /data/data/com.termux/files/home
 rm -rf Toolbox
 echo -e "\e[1;31m"
 figlet -f small updating Toolbox . .
