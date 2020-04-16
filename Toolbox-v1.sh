@@ -1,12 +1,6 @@
 #!/bin/bash
 #All right reserved by: the writer of this program: t.me/Anonymous_Lpz
 
-function exit {
-cd
-ls
-exit
-}
-
 #banner
 while :
 do
@@ -231,12 +225,7 @@ chmod +x *
 ls
 bash verificador.sh
 ;;
-00) echo ""
-echo -e "\e[1;31m                           Closing script..."
-sleep 1.2
-echo -e "\e[1;33mBye, and Thanks for your preference."
-sleep 1.5
-clear
+00)
 exit
 ;;
 *) echo ""
