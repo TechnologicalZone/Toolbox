@@ -230,8 +230,8 @@ echo -e "\e[1;31m                           Closing script..."
 sleep 1.2
 echo -e "\e[1;33mBye, and Thanks for your preference."
 sleep 1.5
-cd /data/data/com.termux/files/home
 clear
+cd /data/data/com.termux/files/home
 ls
 exit
 ;;
