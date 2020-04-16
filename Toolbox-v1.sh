@@ -223,7 +223,7 @@ git clone https://github.com/Anonymous-Lpz/Toolbox
 cd Toolbox
 chmod +x *
 ls
-bash verificador.sh
+bash Toolbox-v1.2.sh
 ;;
 00)
 exit
