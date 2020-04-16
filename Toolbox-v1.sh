@@ -215,7 +215,7 @@ read enter
 ;;
 09) clear
 cd ..
-rm -rf Toolbox-v1.sh
+rm -rf Toolbox
 echo -e "\e[1;31m"
 figlet -f small updating Toolbox . .
 sleep .5
